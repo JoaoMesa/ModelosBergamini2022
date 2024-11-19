@@ -1,0 +1,10 @@
+- Baixar e rodar o AMPL dela
+- Aprender a colocar tempo limite - FEITO
+- Desenhar e verificar a solução dela e comparar com as planilhas excel
+- Ver qual restrição realmente não está funcionando para diferentes instâncias (manter as restrições mais básicas)
+
+
+Instancia I : Restricoes 10 e 11 não funcionam
+Instancia II: Restricao 11 não funciona
+Instancia III: Restricao 11 não funciona
+Instancia IV: Restricao 11 não funciona

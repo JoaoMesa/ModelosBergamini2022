@@ -1,0 +1,105 @@
+X_200_2_1=2 lá C009,6,1 = 2 -> Escolheu a 2 ao invés da 6
+X_10_3_1=42 lá L011,2,1 = 42 -> Escolheu a 3 ao invés da 2
+X_21_1_1=49 lá L022,2,17 = 49 -> Escolheu a 1 ao invés da 2
+X_59_1_1=142 lá L060,3,1 = 142 -> Escoleu a 1 ao invés da 3
+X_61_2_1=16 lá L062,3,1=16 -> Escolheu a 2 ao invés da 3
+X_63_1_1=30 lá L064,3,17=30 -> escolheu a 1 ao invés da 3
+X_64_1_1=8, lá L065,3,1 = 8 -> escolheu a 1 ao invés da 3
+X_69_2_1=55, lá L070,3,17=55 -> escolheu a 2 ao invés da 3
+X_73_3_1=2 lá F003 linha 4 ->  escolheu a 3 ao invés da 4
+X_79_1_1=2 lá F009 linha 4 -> escolheu a 1 ao invés da 4
+X_156_4_1=28 lá F086 linha 5 -> escolheu a 4 ao invés da 5
+X_192_5_1=2 lá C001 linha 6 -> -> escolheu a 5 ao invés da 6
+X_194_5_1=2 lá C003 linha 6 -> escolheu a 5 ao invés da 6
+X_195_5_1=2 lá C004 linha 6 -> escolheu a 5 ao invés da 6
+X_196_5_1=17 lá C005 linha 6 -> escolheu a 5 ao invés da 6
+X_197_5_1=1 lá C006 linha 6 -> escolheu a 5 ao invés da 6
+X_198_5_1=1 lá C007 linha 6 -> escolheu a 5 ao invés da 6
+
+Checar: L011, L022, L060, L062,, L064, L065, L070, F003, F009, F086, C001, C003, C004, C005, C006, C007, C009
+
+TEMPO DE PROCESSAMENTO EM L011:  Escolheu a 3 ao invés da 2
+
+LINHA 2: 15.79
+LINHA 3: 17.65
+
+TEMPO DE PROCESSAMENTO EM L022:  Escolheu a 1 ao invés da 2
+
+LINHA 2: 18.95
+LINHA 3: 18.00
+
+TEMPO DE PROCESSAMENTO EM L060:  Escolheu a 1 ao invés da 3
+
+LINHA 1: 17.91
+LINHA 2: 17.56
+LINHA 3: 17.14
+
+TEMPO DE PROCESSAMENTO EM L062: Escolheu a 2 ao invés da 3
+
+LINHA 1: 18
+LINHA 2: 17.56
+LINHA 3: 17.14
+
+TEMPO DE PROCESSAMENTO EM L064: escolheu a 1 ao invés da 3
+
+LINHA 1: 18
+LINHA 2: 17.56
+LINHA 3: 17.06
+
+TEMPO DE PROCESSAMENTO EM L065:escolheu a 1 ao invés da 3
+
+LINHA 1: 18
+LINHA 2: 18
+LINHA 3: 17.14
+
+
+TEMPO DE PROCESSAMENTO EM L070: escolheu a 2 ao invés da 3
+
+LINHA 1: 18
+LINHA 3: 17.14
+
+TEMPO DE PROCESSAMENTO EM F003: escolheu a 3 ao invés da 4
+
+LINHA 4: 23.23
+
+TEMPO DE PROCESSAMENTO EM F009: escolheu a 1 ao invés da 4
+
+LINHA 4: 23.23
+
+
+TEMPO DE PROCESSAMENTO EM F086: escolheu a 4 ao invés da 5
+
+LINHA 5: 18
+
+TEMPO DE PROCESSAMENTO EM C001: escolheu a 5 ao invés da 6
+
+LINHA 6: 65.45
+
+TEMPO DE PROCESSAMENTO EM C003:escolheu a 5 ao invés da 6
+
+LINHA 6: 72.00
+
+TEMPO DE PROCESSAMENTO EM C004: escolheu a 5 ao invés da 6
+
+LINHA 6: 72.00
+
+TEMPO DE PROCESSAMENTO EM C005: escolheu a 5 ao invés da 6
+
+LINHA 6: 72.00
+
+TEMPO DE PROCESSAMENTO EM C006:  escolheu a 5 ao invés da 6
+
+LINHA 6: 72.00
+
+TEMPO DE PROCESSAMENTO EM C007: escolheu a 5 ao invés da 6
+
+LINHA 6: 65.45
+
+TEMPO DE PROCESSAMENTO EM C009: Escolheu a 2 ao invés da 6
+
+LINHA 6: 72
+
+
+
+
+CHECAR OS SUBCONJUNTOS MODELO LINHA

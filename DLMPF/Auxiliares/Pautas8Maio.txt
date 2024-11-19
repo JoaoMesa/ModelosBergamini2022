@@ -1,0 +1,14 @@
+- arrumei os índice de item para 0
+- arrumei demanda_num_lotes e demanda_tam_residual
+- nomeei as restricoes
+- cplex rodou, modelo sem solução por enquanto
+- índice do tempo, começar do 0? ter 18 ou 17?
+
+Anotações 
+
+
+Próximo
+- conseguir o cplex.log
+- montar/achar uma instância menor, instância pg 47
+
+- 0 é um período anterior ao horizonte atual, só preciso o w nele. Ele não tem capacidade nem demanda.

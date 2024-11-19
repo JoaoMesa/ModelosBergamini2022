@@ -1,0 +1,3 @@
+imprimir cada uma das restrições dela e comparar com as suas.
+
+instancia I e encontrar o erro, depois rodas instancia II e ir fazendo

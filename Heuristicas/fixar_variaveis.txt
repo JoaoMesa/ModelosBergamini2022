@@ -1,0 +1,30 @@
+def fixar_variaveis(fixar_indices):
+        for i in CONJ_P:
+            for k in CONJ_L:
+                for t in CONJ_T:
+                    if t in fixar_indices: 
+                        x[i][k][t].lb = x[i][k][t].ub = solucao.get_value(x[i][k][t])
+                        y[i][k][t].lb = y[i][k][t].ub = solucao.get_value(y[i][k][t])
+                        w[i][k][t].lb = w[i][k][t].ub = solucao.get_value(w[i][k][t])
+                        z[i][k][t].lb = z[i][k][t].lb = solucao.get_value(z[i][k][t])
+
+def desfixar_variavel(desfixar_indices):
+        for i in CONJ_P:
+            for k in CONJ_L:
+                for t in CONJ_T:
+                    if t in desfixar_indices: 
+                        x[i][k][t].lb = x[i][k][t].ub = None
+                        y[i][k][t].lb = y[i][k][t].ub = None
+                        w[i][k][t].lb = w[i][k][t].ub = None
+                        z[i][k][t].lb = z[i][k][t].lb = None
+
+
+FO_inicial = solucao
+fixar_variaveis(CONJ_T)
+
+for t in CONJ_T:
+    desfixar_variaveis(t)
+    model.solve()
+    fixar_variaveis(t)
+    
+

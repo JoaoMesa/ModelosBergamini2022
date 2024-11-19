@@ -1,0 +1,145 @@
+- Bound infeasibility column 'W_85_4_1'.
+
+Quais restrições usam W? 5, 6, 7, 10, 11, 12, 13 e 14
+
+=============================================================================================================================================================================================
+=============================================================================================================================================================================================
+
+
+Tirando só a restrição 5:
+
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Tried aggregator 2 times.
+MIP Presolve eliminated 65008 rows and 57712 columns.
+MIP Presolve modified 2100 coefficients.
+Aggregator did 15376 substitutions.
+Reduced MIP has 8456 rows, 10126 columns, and 40394 nonzeros.
+Reduced MIP has 5270 binaries, 4856 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.22 sec. (173.82 ticks)
+Probing fixed 2 vars, tightened 176 bounds.
+Probing time = 0.07 sec. (21.10 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 2 rows and 2 columns.
+Reduced MIP has 8454 rows, 10124 columns, and 40385 nonzeros.
+Reduced MIP has 5268 binaries, 4856 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (129.60 ticks)
+Probing fixed 3 vars, tightened 0 bounds.
+Probing time = 0.04 sec. (13.19 ticks)
+Clique table members: 10314.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.04 sec. (20.25 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    infeasible                                         84         
+
+=============================================================================================================================================================================================
+=============================================================================================================================================================================================      
+      
+      
+Tirando a 6, 7, 11, 12, 14:
+
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Bound infeasibility column 'W_85_4_1'.
+Presolve time = 0.07 sec. (47.07 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (56.65 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (56.65 ticks)
+
+=============================================================================================================================================================================================
+=============================================================================================================================================================================================
+
+
+
+Tirando a 10:
+
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Tried aggregator 2 times.
+MIP Presolve eliminated 84164 rows and 60777 columns.
+MIP Presolve modified 6681 coefficients.
+Aggregator did 15427 substitutions.
+Reduced MIP has 6335 rows, 7010 columns, and 24606 nonzeros.
+Reduced MIP has 4194 binaries, 2816 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.16 sec. (159.81 ticks)
+Probing fixed 84 vars, tightened 214 bounds.
+Probing time = 0.02 sec. (6.58 ticks)
+Cover probing fixed 14 vars, tightened 0 bounds.
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 257 rows and 235 columns.
+MIP Presolve modified 84 coefficients.
+Reduced MIP has 6078 rows, 6775 columns, and 23749 nonzeros.
+Reduced MIP has 4060 binaries, 2715 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (34.87 ticks)
+Probing fixed 0 vars, tightened 12 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.02 sec. (5.55 ticks)
+Clique table members: 7195.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.03 sec. (12.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    infeasible                                         77         
+
+Root node processing (before b&c):
+  Real time             =    0.32 sec. (288.45 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.32 sec. (288.45 ticks)
+
+=============================================================================================================================================================================================
+=============================================================================================================================================================================================
+
+Tirando a 13:
+
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Tried aggregator 2 times.
+MIP Presolve eliminated 84634 rows and 59211 columns.
+MIP Presolve modified 6172 coefficients.
+Aggregator did 16075 substitutions.
+Reduced MIP has 7429 rows, 7928 columns, and 32094 nonzeros.
+Reduced MIP has 4725 binaries, 3203 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.20 sec. (197.58 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.26 sec. (250.17 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.26 sec. (250.17 ticks)
+
+=============================================================================================================================================================================================
+=============================================================================================================================================================================================
+
+
+
+6, 7, 11, 12, 14 NÃO interferem na mensagem de erro.
+
+Com 13, 10 e 5, a mensagem muda.
+
+
+
+

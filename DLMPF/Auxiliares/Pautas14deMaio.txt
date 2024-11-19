@@ -1,0 +1,20 @@
+- arrumei o período 0
+- consegui as informações da solução
+- docplex.cp ou docplex.mp? diferenças, mas acho que o mp
+- Questões do relatório
+
+- ver o W_85_4_1, demanda_tam_residual tá zerado, ver se é isso mesmo
+- escrever a validação do modelo no relatório.
+
+
+16 de maio:
+
+no relatorio:
+- ver template latex
+- RESUMO DAS ATIVIDADES e PRODUÇÃO TÉCNICO-CIENTÍFICA
+- Adicionalmente, durante a submissão deve ser anexado via SAGUI como documento suplementar
+o PDF de comprovação de vinculação do(a) aluno(a) ao grupo de pesquisa do(a) orientador(a)
+certificado no Diretório dos Grupos de Pesquisa no Brasil no CNPq.
+
+no modelo: 
+- 
