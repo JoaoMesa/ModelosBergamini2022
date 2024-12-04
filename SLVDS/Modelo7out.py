@@ -10,13 +10,13 @@ def main():
     
     #============================================================================================================================================
 
-    read_tempo = pd.read_csv("planilhas/Dia_1/tprocessamento.csv")
-    read_setup = pd.read_csv("planilhas/Dia_1/setup.csv")
-    read_produtos = pd.read_csv("planilhas/Dia_1/produtos.csv")
-    read_mapa_prod_grupo = pd.read_csv("planilhas/Dia_1/MapaProdGrupo.csv")
-    read_M = pd.read_csv("planilhas/Dia_1/M.csv")
-    read_modelos = pd.read_csv("planilhas/Dia_1/modelos.csv")
-    read_num_prod_grupo = pd.read_csv("planilhas/Dia_1/NumProdutosNoGrupo.csv")
+    read_tempo = pd.read_csv("planilhas/Dia_2/tprocessamento.csv")
+    read_setup = pd.read_csv("planilhas/Dia_2/setup.csv")
+    read_produtos = pd.read_csv("planilhas/Dia_2/produtos.csv")
+    read_mapa_prod_grupo = pd.read_csv("planilhas/Dia_2/MapaProdGrupo.csv")
+    read_M = pd.read_csv("planilhas/Dia_2/M.csv")
+    read_modelos = pd.read_csv("planilhas/Dia_2/modelos.csv")
+    read_num_prod_grupo = pd.read_csv("planilhas/Dia_2/NumProdutosNoGrupo.csv")
 
 
     #============================================================================================================================================

@@ -290,7 +290,7 @@ def main():
 
     for k in CONJ_L_lin:
             for t in range(1,T):
-                model.add_constraint_(model.sum(z[i,k,t] for i in CONJ_P_itens) <= 1, ctname = 'Restricao_8')
+                model.add_constraint_(model.sum(z[i,k,t] for i in CONJ_P_itens) <= 5, ctname = 'Restricao_8')
                
     # Restricao_9 - Capacidade horizonte de planejamento
     
@@ -361,12 +361,12 @@ def main():
     
     #============================================================================================================================================
 
-    restricoes_string = model.export_as_lp_string() #Modelo bruto
+    #restricoes_string = model.export_as_lp_string() #Modelo bruto
 
     # Expressão regular para encontrar números decimais e limitar a 4 casas decimais
-    restricoes_string_formatada = re.sub(r'(\d+\.\d{2})\d*', r'\1', restricoes_string)
+    #restricoes_string_formatada = re.sub(r'(\d+\.\d{2})\d*', r'\1', restricoes_string)
 
-    print(restricoes_string_formatada)
+    #print(restricoes_string_formatada)
 
 
 
@@ -400,7 +400,6 @@ def main():
 
     print("\n===================== PRINTs AUXILIARES =========================\n")
     
-    print(T)
     
 
 
